@@ -118,16 +118,19 @@ ul {
 }
 
 @media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('imgs/bg-2.png');
+    background-size: cover;
+  }
+
   .esquerda {
     display: none;
   }
 
-  .container {
-    background-image: url('imgs/bg-2.png');
-  }
-  
   form {
     width: 300px;
-    font-size: 16px;
   }
 }
